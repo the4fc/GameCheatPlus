@@ -1,0 +1,22 @@
+name: GameCheatPlus
+version: 1.0
+main: com.tuplugin.GameCheatPlus
+commands:
+  helpop:
+    description: Envía un mensaje al equipo de staff.
+    usage: /helpop <mensaje>
+  report:
+    description: Reporta a un jugador con una razón.
+    usage: /report <jugador> <razón>
+  history:
+    description: Muestra el historial de un jugador.
+    usage: /history <jugador> [tiempo]
+  gamecheat help:
+    description: Muestra todos los comandos de GameCheat+.
+    usage: /gamecheat help
+  gamecheat limit:
+    description: Muestra las limitaciones de hoppers, cofres y spawners por chunk.
+    usage: /gamecheat limit
+  afk:
+    description: Marca al jugador como AFK.
+    usage: /afk
